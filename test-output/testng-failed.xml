@@ -5,6 +5,9 @@
     <classes>
       <class name="com.tutorialsninja.qa.testcases.Login">
         <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyLoginWithInvalidCredentials"/>
           <include name="verifyLoginWithValidCredentials"/>
         </methods>
       </class> <!-- com.tutorialsninja.qa.testcases.Login -->
